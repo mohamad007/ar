@@ -277,23 +277,9 @@ function create_config( )
     "linkpv",
     "sudolist"
     },
-    sudo_users = {124406196},--Sudo users
+    sudo_users = {},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DevPoint v1
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/DevPointTeam/DevPoint
-
-Admins
-@TH3_GHOST
-@MOHAMMED_ZEDAN
-Channel DEV POINT TEAM
-@DevPointTeam
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [English]
-
-]],
+    about_text = [[]],
     help_text_realm = [[
 Realm Commands:
 
